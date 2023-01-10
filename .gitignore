@@ -1,0 +1,4 @@
+day*.txt
+*.json
+bin/
+obj/

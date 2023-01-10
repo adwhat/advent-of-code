@@ -1,9 +1,7 @@
-file = open("day01.txt") 
-
 elf = 0
 elves = []
 
-for line in file:
+for line in open("day01.txt"):
     line = line.strip()
     if not line:
         elves.append(elf)
